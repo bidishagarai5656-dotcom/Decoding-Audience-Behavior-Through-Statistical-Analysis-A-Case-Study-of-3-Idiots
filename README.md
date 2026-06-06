@@ -27,16 +27,17 @@ A custom scraper (`parsing.py`) was written using **Playwright** and
 **BeautifulSoup** to dynamically scroll through IMDb's review pages,
 load all reviews, and extract ratings, usernames, and review text in real time.
 
+```
 IMDb Review Page
-↓
+        ↓
 Playwright (headless Chrome, stealth mode)
-↓
+        ↓
 Dynamic scroll → Load more → Grab full HTML
-↓
+        ↓
 BeautifulSoup → Parse all review cards
-↓
-3idiots_reviews.csv  (1,113 clean rows)
-
+        ↓
+3idiots_reviews.csv (1,113 clean rows)
+```
 **Libraries used for scraping:**
 `playwright` · `playwright-stealth` · `beautifulsoup4` · `pandas`
 
@@ -71,7 +72,7 @@ was one of the most interesting patterns in the entire dataset.
 ---
 
 ## 📁 What's Inside This Repo
-
+```
 ├── parsing.py                          → IMDb scraper (Playwright + BS4)
 ├── 3idiots_audience_analysis.ipynb     → Full statistical analysis notebook
 ├── 3idiots_reviews.csv                 → Dataset — 1,113 verified IMDb reviews
@@ -84,7 +85,7 @@ was one of the most interesting patterns in the entire dataset.
 │   ├── wordcloud.png
 │   └── top20_words.png
 └── README.md
-
+```
 ---
 
 ## 🛠️ Full Tech Stack
