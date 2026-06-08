@@ -70,16 +70,31 @@ This behavioral insight emerged from the review-length analysis and
 was one of the most interesting patterns in the entire dataset.
 
 ---
+## 🎯 Project Presentation
 
+The full analysis was compiled into a professional presentation
+covering four analytical modules:
+
+| Module | Coverage |
+|--------|----------|
+| 01. Scope & Data Prep | Case study parameters, scraping pipeline, preprocessing |
+| 02. Central Tendency | Mean (8.52), Median (9.0), Mode (10.0) |
+| 03. Dispersion & Curves | Range (9), Std. deviation (2.15), Skewness (−1.853) |
+| 04. Behavioral Dynamics | Sentiment breakdown, review length insight |
+
+> 📄 **[View Full Presentation (PDF)](./3idiots_statistical_analysis_presentation.pdf)**
+
+---
 ## 📁 What's Inside This Repo
 ```
 ├── parsing.py                          → IMDb scraper (Playwright + BS4)
 ├── 3idiots_audience_analysis.ipynb     → Full statistical analysis notebook
+├── 3_idiots_presentation.pdf           → Full project presentation (13 slides)
 ├── 3idiots_reviews.csv                 → Dataset — 1,113 verified IMDb reviews
 ├── outputs/
 │   ├── rating_distribution_skewness.png
 │   ├── rating_density.png
-│   ├── rating_boxplot.png
+│   ├── interval frequency distribution.png
 │   ├── sentiment_distribution.png
 │   ├── audience_effort_dynamics.png
 │   ├── wordcloud.png
